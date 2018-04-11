@@ -3,6 +3,7 @@
 <head>
 
 	<meta charset="utf-8">    
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Latest compiled and minified CSS -->
@@ -11,53 +12,133 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<!-- JQuery desde Google (no se caera jamas) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-	
-	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"
-	integrity="sha256-DI6NdAhhFRnO2k51mumYeDShet3I8AKCQf/tf7ARNhI="
-	crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
 <body>
   
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="#">Navbar</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-	    <div class="navbar-nav">
-	      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-	      <a class="nav-item nav-link" href="#">Features</a>
-	      <a class="nav-item nav-link" href="#">Pricing</a>
-	      <a class="nav-item nav-link disabled" href="#">Disabled</a>
-	    </div>
-	  </div>
-	</nav>
+ <!--NAVBAR--> 
+<nav class="navbar navbar-light navbar-fixed-top" role="navigation" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--NAVBAR-->
 
 <!--BANNER-->
-	<div class="jumbotron">BANNER PRINCIPAL</div>
+	<div class="jumbotron" style="padding-top: 100px"><img class="img-responsive banner" src="images/big_logo.png" alt="logo"></div>
 <!--BANNER-->
 
 <!--THUMBS NOTICIAS-->
+<div class="th_noticias">
 	<div class="row">
-		<div class="col-md-4">n1</div>
-		<div class="col-md-4">n2</div>
-		<div class="col-md-4">n3</div>
+	 <div class="col-sm-12 col-md-4">
+	    <div class="thumbnail">
+	      <img src="..." alt="...">
+	      <div class="caption">
+	        <h3>Thumbnail label</h3>
+	        <p>...</p>
+	        <a href="#" class="btn btn-default centered" role="button">Button</a>
+	      </div>
+	    </div>
+	  </div>
+
+	   <div class="col-sm-12 col-md-4">
+	    <div class="thumbnail">
+	      <img src="..." alt="...">
+	      <div class="caption">
+	        <h3>Thumbnail label</h3>
+	        <p>...</p>
+	        <a href="#" class="btn btn-default centered" role="button">Button</a>
+	      </div>
+	    </div>
+	  </div>
+	 
+	 <div class="col-sm-12 col-md-4">
+	    <div class="thumbnail">
+	      <img src="..." alt="...">
+	      <div class="caption">
+	        <h3>Thumbnail label</h3>
+	        <p>...</p>
+	        <a href="#" class="btn btn-default centered" role="button">Button</a>
+	      </div>
+	    </div>
+	  </div>
 	</div>
+</div>
+
+
 <!--THUMBS NOTICIAS-->
 
 <!--FOOTER-->
-	<section>
-		<div class="row">
-			<div class="col-md-8">FORMULARIO</div>
-			<div class="col-md-4">MAPA Y CONTACTO</div>
+<div class="footer">
+	<div class="row">
+		<div class="col-md-7">FORMULARIO</div>
+		<div class="col-md-1">
+			<p><img class="img-responsive" src="images/facebook.png"></p>
+			<p><img class="img-responsive" src="images/gorjeo.png"></p>
 		</div>
-	</section>
+		<div class="col-md-4">
+			<div style="width: 100%;" ><iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&height=600&hl=es&q=Fundacion%20asperger%20chile+(FAC)&ie=UTF8&t=&z=15&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
 <!--FOOTER-->
 
 </body>
