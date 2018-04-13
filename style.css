@@ -1,12 +1,12 @@
 .contacto{
-	padding-top: 15px;
+	padding-left: 2.5vw;
 }
 
 .noticia{
 	border: 1px #cccccc solid;
 	border-width: 2px;
 	box-sizing: border-box;
-	text-align: center;
+	margin: 2.5vh; 
 }
 
 .footer{
@@ -23,19 +23,33 @@
   line-height: 90px;
 }
 
-
 .formulario{
-	padding-left:  50px;	
-	padding-right:  50px;	
+	padding-left:  3vw;	
+	padding-right:  3vw;	
 }
 
 .social{
 	float: right;
-	max-width: 53px;
-	padding: 10px;
-}
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-size:60px;
+	color:#FFFFFF;
+}	
 
 .space{
 	margin-top: 5vh;
 	margin-bottom: 5vh;
+}
+
+.centrado{
+	text-align: center;
+}
+
+.separador{
+	border-bottom: 2px solid #FFCD6B;
+	margin-bottom: 10px;
+}
+
+.mas{
+	text-align: right;
 }
