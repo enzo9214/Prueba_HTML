@@ -1,12 +1,41 @@
-.banner{
-	margin-left: auto;
-	margin-right: auto;
+.contacto{
+	padding-top: 15px;
 }
 
-.th_noticias{
-	background-color: red;
-
+.noticia{
+	border: 1px #cccccc solid;
+	border-width: 2px;
+	box-sizing: border-box;
+	text-align: center;
 }
+
 .footer{
-	background-color: lightgreen;
+	background-color: #4EBBB7;
+}
+
+.navbar {
+  min-height: 90px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 90px;
+  line-height: 90px;
+}
+
+
+.formulario{
+	padding-left:  50px;	
+	padding-right:  50px;	
+}
+
+.social{
+	float: right;
+	max-width: 53px;
+	padding: 10px;
+}
+
+.space{
+	margin-top: 5vh;
+	margin-bottom: 5vh;
 }
